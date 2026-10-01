@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 92" fill="none">
+  <defs>
+    <linearGradient id="hi-d1" x1="0.15" y1="0.1" x2="0.85" y2="0.9"><stop offset="0" stop-color="#BDE8EC"/><stop offset="1" stop-color="#6CC6CF"/></linearGradient>
+    <linearGradient id="hi-d2" x1="0.2" y1="0.1" x2="0.8" y2="0.9"><stop offset="0" stop-color="#A9E0E5"/><stop offset="1" stop-color="#58BAC4"/></linearGradient>
+    <linearGradient id="hi-d3" x1="0.1" y1="0" x2="0.9" y2="1"><stop offset="0" stop-color="#62C3CD"/><stop offset="1" stop-color="#D8F2F4"/></linearGradient>
+    <linearGradient id="hi-o" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2B3A8F" stop-opacity=".35"/><stop offset=".55" stop-color="#2B3A8F"/><stop offset="1" stop-color="#2B3A8F" stop-opacity=".55"/></linearGradient>
+  </defs>
+  <path d="M42 30 L71 59 L42 88 L13 59 Z" fill="url(#hi-d3)"/>
+  <path opacity=".92" d="M39 4 L56 21 L39 38 L22 21 Z" fill="url(#hi-d1)"/>
+  <path opacity=".92" d="M66 12 L82 28 L66 44 L50 28 Z" fill="url(#hi-d2)"/>
+  <ellipse cx="55" cy="33" rx="42" ry="7.5" transform="rotate(7 55 33)" stroke="url(#hi-o)" stroke-width="1.7"/>
+</svg>
