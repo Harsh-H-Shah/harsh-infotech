@@ -39,7 +39,7 @@ export default function OneFiberPage() {
             <Link href="/one-fiber/overview" className="btn-primary" style={{ background: 'linear-gradient(135deg, #06b6d4, #22d3ee)', color: '#000' }}>
               Platform Overview
             </Link>
-            <Link href="/one-fiber/services" className="btn-ghost" style={{ background: 'rgba(255,255,255,0.05)' }}>Services & Plans</Link>
+            <Link href="/contact" className="btn-ghost">Ask about plans</Link>
           </div>
         </div>
       </section>

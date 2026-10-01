@@ -23,7 +23,7 @@ export default function NurseCallPage() {
               <Link href="/nurse-call/product" className="btn-primary" style={{ background: 'linear-gradient(135deg, #10b981, #34d399)', color: '#fff' }}>
                 System Architecture
               </Link>
-              <Link href="/nurse-call/support" className="btn-ghost">Technical Support</Link>
+              <Link href="/contact" className="btn-ghost">Talk to our team</Link>
             </div>
           </div>
         </div>

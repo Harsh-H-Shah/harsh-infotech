@@ -27,7 +27,7 @@ const securityCategories = [
     name: 'Property Solutions',
     tagline: 'Built for scale.',
     desc: 'Bespoke security architecture for residential complexes and commercial properties.',
-    href: '/security/solutions',
+    href: '/contact',
     icon: '🏢',
     accent: '#ef4444',
   },
@@ -35,7 +35,7 @@ const securityCategories = [
     name: 'Compliance',
     tagline: 'Certified safety.',
     desc: 'Regulatory-ready documentation and certification for institutional security audits.',
-    href: '/security/compliance',
+    href: '/contact',
     icon: '📜',
     accent: '#ef4444',
   },
@@ -56,10 +56,10 @@ export default function SecurityPage() {
               From commercial-grade surveillance to multi-tiered fire safety systems — protecting lives and property with intelligent, compliance-ready technology.
             </p>
             <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-              <Link href="/security/solutions" className="btn-primary" style={{ background: 'linear-gradient(135deg, #ef4444, #f87171)', color: '#fff' }}>
-                View Solutions
+              <Link href="/security/cctv" className="btn-primary" style={{ background: 'linear-gradient(135deg, #ef4444, #f87171)', color: '#fff' }}>
+                CCTV systems
               </Link>
-              <Link href="/security/compliance" className="btn-ghost">Compliance Standards</Link>
+              <Link href="/security/fire" className="btn-ghost">Fire safety</Link>
             </div>
           </div>
         </div>
