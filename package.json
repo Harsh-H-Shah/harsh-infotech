@@ -2,17 +2,17 @@
   "name": "harsh-infotech",
   "version": "0.1.0",
   "private": true,
+  "description": "Marketing website for Harsh Infotech — smart home, security, One Fiber and nurse call systems.",
+  "homepage": "https://harsh-h-shah.github.io/harsh-infotech/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "npx serve out",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
-    "@react-three/drei": "^10.7.7",
-    "@react-three/fiber": "^9.6.0",
-    "@types/three": "^0.184.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.38.0",
     "gsap": "^3.15.0",
@@ -20,8 +20,7 @@
     "next": "16.2.4",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "tailwind-merge": "^3.7.0",
-    "three": "^0.184.0"
+    "tailwind-merge": "^3.7.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
